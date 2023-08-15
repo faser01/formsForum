@@ -21,7 +21,7 @@ document.getElementById('messageForm').addEventListener('submit', function(event
 
     var messageInfo = document.createElement('div');
     messageInfo.className = 'message-info';
-    messageInfo.innerHTML = '<strong>' + name + '</strong> ' + '<strong>'+ getCurrentDate() + '</stromg>';
+    messageInfo.innerHTML = '<strong>' + name + '</strong> ' + '<strong>'+ getCurrentDate() + '</strong>';
 
     var messageText = document.createElement('div');
     messageText.innerHTML = text;
