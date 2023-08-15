@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форум</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Список сообщений на форуме</h1>
+
+    <div id="messages">
+        <!-- Здесь будут отображаться сообщения -->
+    </div>
+
+    <h2>Добавить новое сообщение</h2>
+    <form id="messageForm">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" >
+
+        <label for="text">Текст сообщения:</label>
+        <textarea id="text" rows="3"></textarea>
+
+        <button type="submit">Отправить</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
